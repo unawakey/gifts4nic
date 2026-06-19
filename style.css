@@ -1,0 +1,15 @@
+body {
+  background-color: #efaca4;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.wrapper {
+  width: 350px;
+  height: 450px;
+  background-color: #badd7f;
+  border-radius: 3%;
+}
