@@ -7,9 +7,23 @@ body {
   height: 100vh;
 }
 
+label {
+  display: block;
+}
+
 .wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   width: 350px;
   height: 450px;
   background-color: #badd7f;
   border-radius: 3%;
+  border: 1px solid #3e8340;
+}
+
+h1 {
+  font-family: "Bagel Fat One", system-ui;
+  font-size: xx-large;
+  text-shadow: 0px 3px 1px rgba(0, 0, 0, 0.25);
 }
